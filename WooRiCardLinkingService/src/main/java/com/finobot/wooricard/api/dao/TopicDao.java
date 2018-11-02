@@ -12,7 +12,7 @@ public class TopicDao {
 	@Autowired
 	private MongoTemplate mongo;
 	
-	public HashMap<String, String> topicTest(HashMap<String, String> request){
+	public HashMap<String, String> topicTest(HashMap<String, String> request) throws Exception{
 		HashMap<String, String> ret = new HashMap<String, String>();
 		return ret;
 	}

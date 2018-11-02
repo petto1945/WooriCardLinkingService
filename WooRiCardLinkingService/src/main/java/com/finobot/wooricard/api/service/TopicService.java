@@ -15,6 +15,7 @@ public class TopicService {
 	
 	public HashMap<String, String> topicTest(HashMap<String, String> request) throws Exception{
 		HashMap<String, String> ret = new HashMap<String, String>();
+		topicDao.topicTest(request);
 		return ret;
 	}
 }

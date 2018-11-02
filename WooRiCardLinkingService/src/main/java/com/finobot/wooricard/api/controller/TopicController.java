@@ -19,7 +19,7 @@ public class TopicController {
 	public HashMap<String, String> topicTest(@RequestBody HashMap<String, String> request) {
 		HashMap<String, String> ret = new HashMap<String, String>();
 		try {
-			
+			ret = topicService.topicTest(request);
 		} catch(Exception e) {
 			e.getStackTrace();
 		}
