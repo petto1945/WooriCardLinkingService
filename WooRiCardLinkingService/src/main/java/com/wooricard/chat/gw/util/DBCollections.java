@@ -58,8 +58,10 @@ public interface DBCollections {
 	public static String LOG_CHAT			= "LOG_CHAT";			// 채팅이력관리 - 통계로그
 	
 	// statistics 
-	public static String STAT_USER_CONN		= "STAT_USER_CONN";		// 통계 접속유저 
-	public static String STAT_DASH_COUNT	= "STAT_DASH_COUNT";	// 통계 카운트  
+	public static String STAT_USER_CONN		= "STAT_USER_CONN";			// 통계 접속유저
+	public static String STAT_USER_CONN_INFLOW = "STAT_USER_CONN_INFLOW";	// 통계 유입채널별인입 고객수
+	public static String STAT_USER_CONN_LOGIN =  "STAT_USER_CONN_LOGIN";	// 통계 로그인수단별인입 고객수
+	public static String STAT_DASH_COUNT	= "STAT_DASH_COUNT";			// 통계 카운트  
 	public static String STAT_QUESTION		= "STAT_QUESTION";		// 통계 랭킹용 
 	public static String STAT_ANSWER_STATUS	= "STAT_ANSWER_STATUS";	// 통계 질문 성공/실패  
 	
